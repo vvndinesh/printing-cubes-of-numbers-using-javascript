@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cube a number</title>
+</head>
+<body>
+<script type="text/javascript">
+	var names ="dinesh";
+	function getcube() 
+	{
+		// body...
+		var number = document.getElementById('number').value;
+		alert(number*number*number)
+	}
+	function getname() 
+	{
+		// body...
+		var fname = document.getElementById('fname').value;
+		var lname = document.getElementsById('lname').value;
+		var name = (fname + lname);
+		alert(name)
+	}
+</script>
+<form>
+	<label>Enter a number :</label>
+	<input type="text" name="number" id="number">
+	<input type="button" value ="caliculate its cube" onclick="getcube()">
+</form>
+<br>
+<br>	
+<form>
+	<label>Enter your name : </label>
+	<input type="text" name="fname" id="fname">
+	<input type="text" name="lname" id="lname">
+	<input type="button" value="your name is" onclick="getname()
+	">
+</form>
+</body>
+</html>
